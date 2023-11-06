@@ -3,3 +3,67 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+.row{
+    width: 100%;
+    flex-direction: column;
+}
+.d-flex{
+    display: flex;
+}
+.col{
+    width: 100%;
+}
+.border-dsh{
+    border: 1px dashed red;
+}
+.content{
+    height: 200px;
+}
+.bg-purple{
+    background-color: #9792e4;
+}
+.bg-white{
+    background-color: #fff;
+}
+/* HEADER  */
+header{
+    background-color: #0084fd;
+    padding: 1rem 2rem
+}
+header .content{
+    height: 75px;
+}
+/* MAIN */
+.jumbotron .content{
+    background-color: #b5ddff;
+    margin: 0.5rem 2rem;
+}
+.planning{
+    height: 500px;
+}
+.benefits .container,
+.planning .container,
+.get-started .container{
+    padding: 2.5rem 2rem 3rem 2rem;
+}
+.benefits .content,
+.planning .content{
+    margin: 0.5rem 0;
+}
+.about-us .content,
+.testimonials .content{
+    margin: 0.5rem 2rem;
+}
+/* FOOTER */
+footer{
+    background-color: #333333;
+}
+footer .container{
+    margin: 0;
+    padding: 2rem
+}
